@@ -2,7 +2,8 @@
     "name": "csSHOW: THE GAME",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "storyboard": "*"
     },
     "files": [
         "main.blocks",

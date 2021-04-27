@@ -450,7 +450,7 @@ function GameBegin () {
     500,
     true
     )
-    game.splash("I'm a dancing computer")
+    game.showLongText("I'm a dancing computer", DialogLayout.Bottom)
     blastOff()
 }
 let CS_Show_logo: Sprite = null
