@@ -297,6 +297,9 @@ function blastOff () {
         7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
         7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
         `)
+    enemeanie = sprites.create(assets.image`glassOfH2O`, SpriteKind.Enemy)
+    mySprite.setPosition(11, 15)
+    enemeanie.follow(mySprite)
     controller.player1.moveSprite(mySprite)
 }
 function GameBegin () {
@@ -453,6 +456,7 @@ function GameBegin () {
     game.showLongText("I'm a dancing computer", DialogLayout.Bottom)
     blastOff()
 }
+let enemeanie: Sprite = null
 let CS_Show_logo: Sprite = null
 let mySprite: Sprite = null
 startScreen()
