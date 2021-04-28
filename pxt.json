@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "storyboard": "*"
+        "storyboard": "*",
+        "color-coded-tilemap": "*"
     },
     "files": [
         "main.blocks",
