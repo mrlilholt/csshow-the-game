@@ -457,6 +457,9 @@ function GameBegin () {
     game.showLongText("I'm a dancing computer", DialogLayout.Bottom)
     blastOff()
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    mySprite.destroy(effects.fountain, 1000)
+})
 let enemeanie: Sprite = null
 let CS_Show_logo: Sprite = null
 let mySprite: Sprite = null
