@@ -299,7 +299,7 @@ function blastOff () {
         `)
     enemeanie = sprites.create(assets.image`glassOfH2O`, SpriteKind.Enemy)
     mySprite.setPosition(11, 15)
-    enemeanie.follow(mySprite)
+    enemeanie.follow(mySprite, 50)
     controller.player1.moveSprite(mySprite)
 }
 function GameBegin () {
