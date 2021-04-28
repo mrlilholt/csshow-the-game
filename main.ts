@@ -118,6 +118,7 @@ function startScreen () {
     scene.setBackgroundColor(1)
     CS_Show_logo.setPosition(0, 60)
     CS_Show_logo.setVelocity(50, 0)
+    effects.confetti.startScreenEffect()
     pause(1700)
     CS_Show_logo.setVelocity(0, 0)
     pause(1000)
