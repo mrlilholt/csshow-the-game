@@ -5,7 +5,8 @@
     "dependencies": {
         "device": "*",
         "storyboard": "*",
-        "color-coded-tilemap": "*"
+        "color-coded-tilemap": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1"
     },
     "files": [
         "main.blocks",
