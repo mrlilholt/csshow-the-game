@@ -1,3 +1,5 @@
+// i figured this out from a youtube tutorial... NOT YOU MR. LILHOLT!!!!
+// 
 function statusSetup () {
     statusbar = statusbars.create(20, 4, StatusBarKind.Health)
     statusbar.setColor(1, 2)
